@@ -15,7 +15,7 @@ export const About = () => {
             >
               <img 
                 src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?q=80&w=1000&auto=format&fit=crop" 
-                alt="Jahanavi Boutique Studio" 
+                alt="Eshan Creations Studio" 
                 className="rounded-2xl shadow-2xl w-full aspect-[4/5] object-cover"
                 referrerPolicy="no-referrer"
               />
@@ -28,12 +28,15 @@ export const About = () => {
               animate={{ opacity: 1, x: 0 }}
             >
               <span className="text-gold font-medium tracking-[0.3em] uppercase mb-4 block">Our Story</span>
-              <h1 className="text-5xl md:text-6xl font-serif font-bold mb-6 leading-tight">The Legacy of Jahanavi</h1>
+              <h1 className="text-5xl md:text-6xl font-serif font-bold mb-6 leading-tight">The Legacy of Eshan Creations in Chittoor</h1>
               <p className="text-stone-400 text-lg leading-relaxed">
-                Founded with a passion for preserving traditional Indian craftsmanship, Jahanavi Boutique has grown from a small studio into a premier destination for bespoke ethnic wear in Chittoor.
+                Founded with a passion for preserving traditional Indian craftsmanship, Eshan Creations has grown from a small studio into a premier destination for bespoke ethnic wear and custom accessories in Chittoor, Andhra Pradesh.
               </p>
               <p className="text-stone-400 text-lg leading-relaxed">
-                Our journey began with a simple vision: to combine the timeless beauty of maggam hand work with modern tailoring techniques. Today, we are proud to be a women-led business that empowers local artisans and brings joy to hundreds of brides.
+                Our journey began with a simple vision: to combine the timeless beauty of maggam hand work with modern tailoring techniques. Today, we are proud to be a women-led business that empowers local artisans and brings joy to hundreds of brides through our unique blouses, kids dresses, and handcrafted thread bangles.
+              </p>
+              <p className="text-stone-400 text-lg leading-relaxed">
+                We believe in transparency and connection. That's why we maintain a vibrant presence on <a href="https://www.instagram.com/eshan_creations/" target="_blank" rel="noopener noreferrer" className="text-gold hover:underline">Instagram</a>, where we share our latest designs, behind-the-scenes crafting, and happy client stories. It's our way of staying connected with the modern woman who values both tradition and digital convenience.
               </p>
               <div className="grid grid-cols-2 gap-8 pt-6">
                 <div>
@@ -86,7 +89,7 @@ export const About = () => {
               className="flex items-center gap-4 hover:text-gold transition-colors"
             >
               <MapPin className="text-gold" />
-              <span>Lucky Ladies Tailors, Chittoor, AP</span>
+              <span>Eshan Creations, Chittoor, AP</span>
             </a>
             <div className="flex items-center gap-4">
               <Users className="text-gold" />

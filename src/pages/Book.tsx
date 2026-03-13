@@ -47,9 +47,9 @@ export const Book = () => {
           className="text-center mb-16"
         >
           <span className="text-gold font-medium tracking-[0.3em] uppercase mb-4 block">Reservations</span>
-          <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6">Book Your Session</h1>
+          <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6">Book Your Session in Chittoor</h1>
           <p className="text-stone-400 max-w-2xl mx-auto text-lg">
-            Schedule a consultation with our designers to discuss your dream outfit. 
+            Schedule a consultation at our Chittoor boutique to discuss your dream outfit with our expert designers. 
             Choose your preferred method of contact below.
           </p>
         </motion.div>
@@ -67,7 +67,7 @@ export const Book = () => {
                   <Send className="text-gold w-10 h-10" />
                 </div>
                 <h2 className="text-3xl font-serif font-bold mb-4">Request Submitted!</h2>
-                <p className="text-stone-400">Your form request was submitted and we will get back to you soon. Thank you for choosing Jahanavi.</p>
+                <p className="text-stone-400">Your form request was submitted and we will get back to you soon. Thank you for choosing Eshan Creations.</p>
                 <button 
                   onClick={() => setSubmitted(false)}
                   className="mt-8 text-gold font-bold tracking-widest uppercase text-xs border-b border-gold/30 pb-1 hover:border-gold transition-all"
@@ -195,7 +195,7 @@ export const Book = () => {
               <h3 className="text-xl font-serif font-bold mb-6 uppercase tracking-widest flex items-center gap-3">
                 <MapPin size={20} className="text-gold" /> Find Us
               </h3>
-              <p className="text-stone-400 mb-6">Lucky Ladies Tailors, Chittoor, Andhra Pradesh</p>
+              <p className="text-stone-400 mb-6">Eshan Creations, Chittoor, Andhra Pradesh</p>
               <a 
                 href="https://maps.app.goo.gl/TY7Po4FrkyP3jjVx8" 
                 target="_blank" 

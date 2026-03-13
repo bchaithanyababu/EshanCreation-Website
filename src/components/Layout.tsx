@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'motion/react';
-import { Menu, X, Instagram, Phone, MessageCircle, Scissors as LogoIcon } from 'lucide-react';
+import { Menu, X, Instagram, Phone, MessageCircle, Sparkles as LogoIcon } from 'lucide-react';
 import { cn } from '../lib/utils';
 
 const Navbar = () => {
@@ -36,7 +36,7 @@ const Navbar = () => {
             <LogoIcon className="text-gold" size={20} />
           </div>
           <span className="text-2xl md:text-3xl font-serif font-bold tracking-tighter gold-gradient-text">
-            JAHANAVI
+            ESHAN CREATIONS
           </span>
         </Link>
 
@@ -118,7 +118,7 @@ const Footer = () => {
               <LogoIcon className="text-gold" size={20} />
             </div>
             <span className="text-3xl font-serif font-bold tracking-tighter gold-gradient-text">
-              JAHANAVI
+              ESHAN CREATIONS
             </span>
           </Link>
           <p className="text-stone-400 max-w-md mb-8 leading-relaxed">
@@ -191,7 +191,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="max-w-7xl mx-auto mt-16 pt-8 border-t border-white/5 text-center text-stone-500 text-sm">
-        &copy; {new Date().getFullYear()} Jahanavi Boutique. All rights reserved.
+        &copy; {new Date().getFullYear()} Eshan Creations. All rights reserved.
       </div>
     </footer>
   );

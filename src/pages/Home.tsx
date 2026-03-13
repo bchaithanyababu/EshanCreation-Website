@@ -30,8 +30,8 @@ export const Home = () => {
               Elegance in Every <span className="gold-gradient-text italic">Stitch</span>
             </h1>
             <p className="text-stone-300 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed font-light">
-              Jahanavi Boutique brings you the finest maggam hand work and bespoke tailoring. 
-              Transforming fabrics into masterpieces for your most special moments.
+              Eshan Creations is the premier destination for the finest maggam hand work, bespoke tailoring, and custom thread bangles in Chittoor. 
+              Transforming fabrics into masterpieces for your most special moments in Andhra Pradesh.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
               <Link to="/book" className="gold-button flex items-center gap-2 group">
@@ -56,10 +56,10 @@ export const Home = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
             {[
-              { icon: <Scissors className="text-gold" />, title: "Perfect Fit", desc: "Custom measurements for a flawless silhouette." },
-              { icon: <Star className="text-gold" />, title: "Bridal Special", desc: "Exquisite bridal blouse designs with intricate maggam work." },
-              { icon: <Heart className="text-gold" />, title: "Hand Crafted", desc: "Traditional embroidery techniques passed through generations." },
-              { icon: <Clock className="text-gold" />, title: "On-Time Delivery", desc: "We value your time and ensure prompt service." }
+              { icon: <Layers className="text-gold" />, title: "Maggam Mastery", desc: "Exquisite hand embroidery with intricate zardosi and beadwork." },
+              { icon: <Star className="text-gold" />, title: "Bridal Couture", desc: "Specialized bridal blouse designs tailored for your big day." },
+              { icon: <Heart className="text-gold" />, title: "Custom Accessories", desc: "Handcrafted thread bangles and saree tassels to match your style." },
+              { icon: <Clock className="text-gold" />, title: "Timely Delivery", desc: "We respect your schedule and ensure prompt delivery of every order." }
             ].map((feature, i) => (
               <motion.div 
                 key={i}
@@ -155,8 +155,8 @@ export const Home = () => {
               <span className="text-gold font-medium tracking-widest uppercase mb-4 block">Latest Creations</span>
               <h2 className="text-4xl md:text-5xl font-serif font-bold">From Our Studio</h2>
             </div>
-            <a href="#" className="flex items-center gap-2 text-gold hover:text-white transition-colors uppercase tracking-widest text-sm font-bold">
-              <Instagram size={18} /> Follow @JahanaviBoutique
+            <a href="https://www.instagram.com/eshan_creations/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-gold hover:text-white transition-colors uppercase tracking-widest text-sm font-bold">
+              <Instagram size={18} /> Follow @eshan_creations
             </a>
           </div>
 
@@ -327,12 +327,12 @@ export const Home = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { name: "Kusuma Sr", text: "The tailors here are very professional. They stitch as we want and deliver it on time. I recommend people to visit this shop for a perfect fitted clothes." },
-              { name: "Sandhiya Balaji", text: "Excellent Tailoring & designing for blouses are done here. Finishing of stitches & ideas are too good. Maintaining a good report on timely delivery." },
-              { name: "Vineetha G", text: "Fitting was exceptional and I can now recommend it to everyone. Every idea she will turn into reality with amazing stitching." },
-              { name: "Lavanya Ranganadham", text: "Awesome + perfect outfit, trending designs, pleasing & caring customer service. I feel lucky to be a customer of Jahanavi." },
-              { name: "Vijaya", text: "Good stitching, delivery in time, polite, if we have any confusion she gives good suggestions, I recommend it to every one." },
-              { name: "Zeelu Riya", text: "Nice stitching, speed working response to customers is very good. Best price, thank you madam!" }
+              { name: "Kusuma Sr", text: "The maggam work on my bridal blouse was breathtaking! Eshan Creations in Chittoor is definitely the best place for intricate hand embroidery. They delivered exactly what I envisioned." },
+              { name: "Sandhiya Balaji", text: "Excellent tailoring and designing for blouses. The finishing of the stitches and the creative ideas for saree tassels are too good. They are very professional and punctual." },
+              { name: "Vineetha G", text: "I got my daughter's Pattu Langa stitched here and it was perfect! The fitting was exceptional and the custom thread bangles they made to match were beautiful." },
+              { name: "Lavanya Ranganadham", text: "Awesome service! The trending designs for bridal blouses and the caring customer service make Eshan Creations stand out. I'm so happy with my wedding outfit." },
+              { name: "Vijaya", text: "Best boutique in Chittoor for maggam work. They give great suggestions if you're confused about designs. The saree kuchu work is also very elegant." },
+              { name: "Zeelu Riya", text: "Nice stitching and very responsive to customers. I got my thread bangles customized here and they are high quality at a best price. Thank you Priya madam!" }
             ].map((review, i) => (
               <motion.div 
                 key={i}
@@ -347,6 +347,109 @@ export const Home = () => {
                 </div>
                 <p className="text-stone-300 italic mb-6 leading-relaxed">"{review.text}"</p>
                 <p className="text-gold font-bold tracking-widest uppercase text-xs">— {review.name}</p>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+      {/* Instagram Feed Section */}
+      <section className="py-24 px-6 md:px-12 bg-black">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+            <div>
+              <span className="text-gold font-medium tracking-widest uppercase mb-4 block">Follow Our Journey</span>
+              <h2 className="text-4xl md:text-5xl font-serif font-bold">Latest on Instagram</h2>
+            </div>
+            <a 
+              href="https://www.instagram.com/eshan_creations/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-gold hover:text-white transition-colors group"
+            >
+              <Instagram size={20} />
+              <span className="font-medium tracking-widest uppercase text-sm border-b border-gold group-hover:border-white pb-1">@eshan_creations</span>
+            </a>
+          </div>
+
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              { img: "https://images.unsplash.com/photo-1617627143750-d86bc21e42bb?q=80&w=1000&auto=format&fit=crop", url: "https://www.instagram.com/eshan_creations/p/DT5R1Y5koyt/" },
+              { img: "https://images.unsplash.com/photo-1590736910118-24189cc5cc06?q=80&w=1000&auto=format&fit=crop", url: "https://www.instagram.com/eshan_creations/p/DT0iPEakv9Z/" },
+              { img: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?q=80&w=1000&auto=format&fit=crop", url: "https://www.instagram.com/eshan_creations/reel/DTxmjWKEh3V/" },
+              { img: "https://images.unsplash.com/photo-1590736704728-f4730bb30770?q=80&w=1000&auto=format&fit=crop", url: "https://www.instagram.com/eshan_creations/reel/DSsU-F3ErM4/" }
+            ].map((post, i) => (
+              <motion.a
+                key={i}
+                href={post.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                initial={{ opacity: 0, scale: 0.9 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.1 }}
+                className="relative aspect-square overflow-hidden group rounded-xl"
+              >
+                <img 
+                  src={post.img} 
+                  alt={`Instagram Post ${i + 1}`} 
+                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  referrerPolicy="no-referrer"
+                />
+                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                  <Instagram className="text-white" size={32} />
+                </div>
+              </motion.a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section for SEO */}
+      <section className="py-24 px-6 md:px-12">
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-16">
+            <span className="text-gold font-medium tracking-widest uppercase mb-4 block">Common Questions</span>
+            <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6">Frequently Asked Questions</h2>
+            <p className="text-stone-400">Everything you need to know about our services in Chittoor.</p>
+          </div>
+
+          <div className="space-y-6">
+            {[
+              { 
+                q: "Who are the best tailors in Chittoor for bridal blouses?", 
+                a: "Eshan Creations is widely recognized as one of the best tailors in Chittoor for bridal blouses. We specialize in custom designs, perfect fitting, and intricate maggam work that makes every bride look stunning." 
+              },
+              { 
+                q: "Where can I get high-quality maggam work done in Chittoor?", 
+                a: "For high-quality maggam hand work in Chittoor, Eshan Creations offers expert craftsmanship. Our artisans are skilled in zardosi, aari, and beadwork, creating unique patterns for blouses and ethnic wear." 
+              },
+              { 
+                q: "Does Eshan Creations provide custom thread bangles and saree tassels?", 
+                a: "Yes, we provide beautifully handcrafted thread bangles and elegant saree tassels (Kuchu) in Chittoor. We customize these accessories to perfectly match your outfit's color and design." 
+              },
+              { 
+                q: "Do you offer custom dresses for kids in Chittoor?", 
+                a: "Absolutely! We specialize in custom-designed kids' dresses, including lehengas, frocks, and ethnic wear, ensuring comfort and style for your little ones." 
+              },
+              { 
+                q: "How can I book an appointment at Eshan Creations Chittoor?", 
+                a: "You can easily book an appointment by visiting our 'Book' page on the website or by contacting us directly via WhatsApp at +91 7989247572. We are located in Chittoor, Andhra Pradesh." 
+              }
+            ].map((faq, i) => (
+              <motion.div 
+                key={i}
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="glass-card p-8 rounded-2xl border border-white/5"
+              >
+                <h3 className="text-xl font-serif font-bold mb-3 flex items-start gap-3">
+                  <HelpCircle className="text-gold shrink-0 mt-1" size={20} />
+                  {faq.q}
+                </h3>
+                <p className="text-stone-400 leading-relaxed pl-8">
+                  {faq.a}
+                </p>
               </motion.div>
             ))}
           </div>
