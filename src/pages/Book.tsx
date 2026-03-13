@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import { Send, MessageCircle, Calendar, User, Phone, ClipboardList } from 'lucide-react';
+import { Send, MessageCircle, Calendar, User, Phone, ClipboardList, MapPin } from 'lucide-react';
 
 export const Book = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -176,7 +176,9 @@ export const Book = () => {
             </div>
 
             <div className="glass-card p-10 rounded-3xl">
-              <h3 className="text-xl font-serif font-bold mb-6 uppercase tracking-widest">Store Hours</h3>
+              <h3 className="text-xl font-serif font-bold mb-6 uppercase tracking-widest flex items-center gap-3">
+                <Calendar size={20} className="text-gold" /> Store Hours
+              </h3>
               <ul className="space-y-4 text-stone-400">
                 <li className="flex justify-between">
                   <span>Monday - Saturday</span>
@@ -187,6 +189,22 @@ export const Book = () => {
                   <span className="text-gold">By Appointment Only</span>
                 </li>
               </ul>
+            </div>
+
+            <div className="glass-card p-10 rounded-3xl">
+              <h3 className="text-xl font-serif font-bold mb-6 uppercase tracking-widest flex items-center gap-3">
+                <MapPin size={20} className="text-gold" /> Find Us
+              </h3>
+              <p className="text-stone-400 mb-6">Lucky Ladies Tailors, Chittoor, Andhra Pradesh</p>
+              <a 
+                href="https://maps.app.goo.gl/TY7Po4FrkyP3jjVx8" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-full border border-gold/30 hover:border-gold text-gold font-bold py-4 rounded-xl transition-all flex items-center justify-center gap-3"
+              >
+                <MapPin size={18} />
+                Get Directions
+              </a>
             </div>
           </motion.div>
         </div>

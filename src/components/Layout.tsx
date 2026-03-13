@@ -175,7 +175,16 @@ const Footer = () => {
         <div>
           <h3 className="text-lg font-serif font-bold text-white mb-6 uppercase tracking-widest">Contact</h3>
           <ul className="space-y-4 text-stone-400">
-            <li>Chittoor, Andhra Pradesh</li>
+            <li>
+              <a 
+                href="https://maps.app.goo.gl/TY7Po4FrkyP3jjVx8" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="hover:text-gold transition-colors"
+              >
+                Chittoor, Andhra Pradesh
+              </a>
+            </li>
             <li>+91 79892 47572</li>
             <li>Mon - Sat: 10:00 AM - 8:00 PM</li>
           </ul>

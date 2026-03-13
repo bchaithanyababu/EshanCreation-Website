@@ -79,10 +79,15 @@ export const About = () => {
           <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-gold to-transparent" />
           <h2 className="text-4xl md:text-5xl font-serif font-bold mb-8">Visit Our Boutique</h2>
           <div className="flex flex-col md:flex-row items-center justify-center gap-12 text-stone-300">
-            <div className="flex items-center gap-4">
+            <a 
+              href="https://maps.app.goo.gl/TY7Po4FrkyP3jjVx8" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-4 hover:text-gold transition-colors"
+            >
               <MapPin className="text-gold" />
               <span>Lucky Ladies Tailors, Chittoor, AP</span>
-            </div>
+            </a>
             <div className="flex items-center gap-4">
               <Users className="text-gold" />
               <span>Led by Priya & Team</span>

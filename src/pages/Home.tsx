@@ -294,9 +294,14 @@ export const Home = () => {
                   <p className="text-xl">+91 79892 47572</p>
                 </div>
                 <div className="pt-4">
-                  <Link to="/book" className="gold-button inline-block">
+                  <a 
+                    href="https://maps.app.goo.gl/TY7Po4FrkyP3jjVx8" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="gold-button inline-block"
+                  >
                     Get Directions
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
