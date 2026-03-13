@@ -25,9 +25,9 @@ export const Home = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <span className="text-gold font-medium tracking-[0.3em] uppercase mb-4 block">Traditional Craftsmanship</span>
-            <h1 className="text-6xl md:text-8xl font-serif font-bold mb-6 leading-tight">
-              Elegance in Every <span className="gold-gradient-text italic">Stitch</span>
+            <span className="text-gold font-display font-medium tracking-[0.4em] uppercase mb-4 block">Traditional Craftsmanship</span>
+            <h1 className="text-6xl md:text-8xl font-serif font-black mb-6 leading-tight tracking-tight">
+              Elegance in Every <span className="gold-gradient-text italic font-serif">Stitch</span>
             </h1>
             <p className="text-stone-300 text-lg md:text-xl max-w-2xl mx-auto mb-10 leading-relaxed font-light">
               Eshan Creations is the premier destination for the finest maggam hand work, bespoke tailoring, and custom thread bangles in Chittoor. 
@@ -84,7 +84,7 @@ export const Home = () => {
       <section className="py-24 px-6 md:px-12">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <span className="text-gold font-medium tracking-widest uppercase mb-4 block">The Journey</span>
+            <span className="text-gold font-display font-medium tracking-widest uppercase mb-4 block">The Journey</span>
             <h2 className="text-4xl md:text-6xl font-serif font-bold mb-6">Our Crafting Process</h2>
             <p className="text-stone-400 max-w-2xl mx-auto">From the first sketch to the final stitch, we ensure every detail is handled with absolute precision.</p>
           </div>
@@ -357,7 +357,7 @@ export const Home = () => {
         <div className="max-w-7xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
             <div>
-              <span className="text-gold font-medium tracking-widest uppercase mb-4 block">Follow Our Journey</span>
+              <span className="text-gold font-display font-medium tracking-widest uppercase mb-4 block">Follow Our Journey</span>
               <h2 className="text-4xl md:text-5xl font-serif font-bold">Latest on Instagram</h2>
             </div>
             <a 

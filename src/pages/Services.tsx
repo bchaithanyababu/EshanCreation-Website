@@ -45,7 +45,7 @@ export const Services = () => {
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-20"
         >
-          <span className="text-gold font-medium tracking-[0.3em] uppercase mb-4 block">Our Expertise</span>
+          <span className="text-gold font-display font-medium tracking-[0.3em] uppercase mb-4 block">Our Expertise</span>
           <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6">Bespoke Services in Chittoor</h1>
           <p className="text-stone-400 max-w-2xl mx-auto text-lg">
             From traditional maggam work to modern silhouettes, we offer a comprehensive range of tailoring services in Chittoor, tailored to your unique style.

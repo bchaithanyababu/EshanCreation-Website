@@ -100,7 +100,7 @@ export const Gallery = () => {
           animate={{ opacity: 1, y: 0 }}
           className="text-center mb-16"
         >
-          <span className="text-gold font-medium tracking-[0.3em] uppercase mb-4 block">Visual Showcase</span>
+          <span className="text-gold font-display font-medium tracking-[0.3em] uppercase mb-4 block">Visual Showcase</span>
           <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6">Our Masterpieces</h1>
           <p className="text-stone-400 max-w-2xl mx-auto text-lg mb-10">
             A curated collection of our finest work in Chittoor, showcasing the intricate details and craftsmanship that define Eshan Creations.

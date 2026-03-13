@@ -27,7 +27,7 @@ export const About = () => {
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
             >
-              <span className="text-gold font-medium tracking-[0.3em] uppercase mb-4 block">Our Story</span>
+              <span className="text-gold font-display font-medium tracking-[0.3em] uppercase mb-4 block">Our Story</span>
               <h1 className="text-5xl md:text-6xl font-serif font-bold mb-6 leading-tight">The Legacy of Eshan Creations in Chittoor</h1>
               <p className="text-stone-400 text-lg leading-relaxed">
                 Founded with a passion for preserving traditional Indian craftsmanship, Eshan Creations has grown from a small studio into a premier destination for bespoke ethnic wear and custom accessories in Chittoor, Andhra Pradesh.

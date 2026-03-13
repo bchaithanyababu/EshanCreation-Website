@@ -35,7 +35,7 @@ const Navbar = () => {
           <div className="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center border border-gold/30 group-hover:bg-gold/30 transition-all duration-500">
             <LogoIcon className="text-gold" size={20} />
           </div>
-          <span className="text-2xl md:text-3xl font-serif font-bold tracking-tighter gold-gradient-text">
+          <span className="text-2xl md:text-3xl font-display font-bold tracking-tighter gold-gradient-text">
             ESHAN CREATIONS
           </span>
         </Link>
@@ -117,7 +117,7 @@ const Footer = () => {
             <div className="w-10 h-10 rounded-full bg-gold/20 flex items-center justify-center border border-gold/30 group-hover:bg-gold/30 transition-all duration-500">
               <LogoIcon className="text-gold" size={20} />
             </div>
-            <span className="text-3xl font-serif font-bold tracking-tighter gold-gradient-text">
+            <span className="text-3xl font-display font-bold tracking-tighter gold-gradient-text">
               ESHAN CREATIONS
             </span>
           </Link>
